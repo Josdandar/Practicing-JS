@@ -8,17 +8,15 @@
 // ****
 // ******
 
+let askSize = prompt("Select the size")
+let patternAcc =""
 
-const patternSize = prompt("Please select the size of your pattern");
-
-
-
-function PatternRepeater (){
-    for(let position = 0; position <= patternSize; position++) {
-        console.log( position )
-
-
-    }  
+function patternRepeater(patternSize){
+    for(position = 0; position < patternSize; position++){
+        patternAcc += "*"
+        console.log(patternAcc)
+    }
 }
 
- PatternRepeater ()
+
+patternRepeater(askSize)
