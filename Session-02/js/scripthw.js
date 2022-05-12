@@ -19,7 +19,7 @@ function sumar (num1, num2) {
 };
 
 let resultado = sumar(1,4)
-console.log(sumar(1,5))
+console.log(resultado)
 
 
 // -----------Operadores
