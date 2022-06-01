@@ -1,4 +1,4 @@
-function xTable (){
+function xTable (input){
     for(let index = 0; index <= 10; index++){
         console.log(number, "*" , index, "=" ,number*index)
     }
@@ -6,4 +6,4 @@ function xTable (){
 
 
 number = Number(prompt("Please select the number to multiply"))
-xTable()
+xTable(number)
